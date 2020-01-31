@@ -1,12 +1,23 @@
 name: eudml
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - scikit-learn
-  - pandas
   - jupyter
-  - matplotlib
-  - seaborn
   - jupyterlab
+  - fiona
+  - shapely
+  - geopandas
+  - pip:
+      - matplotlib
+      - seaborn
+      - numpy
+      - seaborn
+      - pandas
+      - altair
+      - us
+      - census
+      - requests
 prefix: /Users/riledigital/miniconda3/envs/eudml
 

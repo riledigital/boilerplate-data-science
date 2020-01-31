@@ -1,0 +1,12 @@
+name: eudml
+channels:
+  - defaults
+dependencies:
+  - scikit-learn
+  - pandas
+  - jupyter
+  - matplotlib
+  - seaborn
+  - jupyterlab
+prefix: /Users/riledigital/miniconda3/envs/eudml
+

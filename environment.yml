@@ -1,12 +1,13 @@
 name: datascience
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - python
   - scikit-learn
   - jupyter
   - jupyterlab
+  - rtree
   - fiona
   - shapely
   - geopandas
@@ -14,10 +15,10 @@ dependencies:
   - pip:
       - matplotlib
       - seaborn
+      - altair
       - numpy
       - seaborn
       - pandas
-      - altair
       - us
       - census
       - requests

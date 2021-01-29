@@ -3,7 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
+  - python=3.8
+  - dask
+  - pyarrow
   - scikit-learn
   - jupyter
   - jupyterlab

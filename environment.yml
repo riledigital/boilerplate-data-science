@@ -4,25 +4,25 @@ channels:
   - defaults
 dependencies:
   - python=3.8
-  - dask
-  - pyarrow
-  - scikit-learn
+  # - dask
+  # - pyarrow
+  # - scikit-learn
   - jupyter
   - jupyterlab
-  - descartes
+  # - descartes
   - pyjanitor
-  - rtree
-  - fiona
-  - shapely
+  # - rtree
+  # - fiona
+  # - shapely
   - geopandas
   - pip
   - pip:
       - matplotlib
       - seaborn
-      - altair
+      # - altair
       - numpy
       - seaborn
       - pandas
-      - us
-      - census
+      # - us
+      # - census
       - requests
